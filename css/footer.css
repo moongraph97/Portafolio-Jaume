@@ -1,0 +1,33 @@
+.p{
+display:inline-flex;
+flex-direction: row-reverse;
+align-items: flex-start;
+padding: 0px;
+    
+font-family: 'Poppins';
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.005em;
+color: #062A89;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 4px;
+}
+
+.social{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 224px;
+height: 44px;
+left: 515px;
+top: 755px;
+gap: 16px;
+}

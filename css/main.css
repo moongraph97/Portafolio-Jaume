@@ -1,0 +1,257 @@
+@import"./button.css";
+@import "./wrapper.css";
+@import "./porfolio2.css";
+@import "./comentario1.css";
+@import "./marvol.css";
+@import "./comentario2.css";
+@import "./netnet.css";
+@import "./comentario3.css";
+@import "./form.css";
+@import "./footer.css";
+
+:root { 
+  --primary: #062a89; 
+  --white: #ffffff; 
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #6C85A9 0%, #ECF0F9 100%) linear-gradient(135deg, #EDF0F7 0%, #7488A9 100%);
+}
+
+
+.wrapper{
+  max-inline-size: 1366px;
+  padding-inline-end: 128px;
+  padding-inline-start: 128px;
+  margin: auto;
+}
+
+.fondo {
+  background-image: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #6C85A9 0%, #ECF0F9 100%);
+  min-block-size: 100vh;
+  position: relative;
+  width: 1366px;
+  height: 6700px;
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+position: absolute;
+width: 412px;
+height: 40px;
+left: 477px;
+top: 45px;
+gap: 60px;
+
+color: var(--primary);
+font-family: 'Poppins', sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 14px;
+line-height: 23px;
+font-style: normal;
+}
+
+.descripcion{
+  position: absolute;
+  width: 543px;
+  height: 376px;
+  left: 128px;
+  top: 151px;
+
+  display:block;
+  flex-direction:row;
+  align-items: flex-start;
+}
+
+.hola {
+  position: static;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  line-height: 39px;
+  color: var(--primary);
+}
+
+.presentacion {
+font-family: 'Poppins', sans-serif;
+font-size: 59px;
+color: var(--primary);
+}
+
+.texto-corto{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--primary);
+}
+
+.perfil{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 700px;
+  top: 45px;
+  right: 92px;
+}
+
+.correo{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--primary);
+  text-decoration-line: underline;
+  
+  position: static;
+  width: 503px;
+  height: 16px;
+  left: 40px;
+  top: 0px;
+}
+
+.email{
+display:flex;
+flex-direction: row;
+justify-content: flex-start;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+margin:0px;
+}
+
+.cel{
+display:flex;
+flex-direction: row;
+justify-content: flex-start;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px;
+
+}
+
+.telefono{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--primary);
+  
+  width:543px;
+  height:16px; 
+  left:0px;
+  top: 260px;
+}
+
+@media screen and (max-width: 600px){
+  .section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  
+  position: absolute;
+  width: 412px;
+  height: 40px;
+  left: 477px;
+  top: 45px;
+  gap: 60px;
+  
+  color: var(--primary);
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 23px;
+  font-style: normal;
+  }
+  
+  .descripcion{
+    position: absolute;
+    width: 543px;
+    height: 376px;
+    left: 128px;
+    top: 151px;
+  
+    display:block;
+    flex-direction:row;
+    align-items: flex-start;
+  }
+
+  .hola {
+    position: static;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 39px;
+    color: var(--primary);
+  }
+  
+  .presentacion {
+  font-family: 'Poppins', sans-serif;
+  font-size: 59px;
+  color: var(--primary);
+  }
+  
+  .texto-corto{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--primary);
+  }
+  
+  .perfil{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 700px;
+    top: 45px;
+    right: 92px;
+  }
+  
+  .correo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--primary);
+    text-decoration-line: underline;
+    
+    position: static;
+    width: 503px;
+    height: 16px;
+    left: 40px;
+    top: 0px;
+  }
+  
+  .email{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  margin:0px;
+  }
+  
+  .cel{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px;
+  }
+  
+  .telefono{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--primary);
+    
+    width:543px;
+    height:16px; 
+    left:0px;
+    top: 260px;
+  }
+}

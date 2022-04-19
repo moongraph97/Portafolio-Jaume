@@ -1,0 +1,128 @@
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 80px, 113px, 80px, 128px;
+    
+    position: static;
+    width: 1366px;
+    height: 552px;
+    left: 0px;
+    top: 678.52px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+.cuadro{
+    width: 449px;
+    height: 205px;
+    top: 160.5px;
+    left: 128px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    gap: 24px;
+}
+
+.netnet{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 34px;
+    line-height: 55px;
+    color: #FFFFFF;
+    left: 8px;
+    top: 4px;
+
+    display: flex;
+    flex-direction:row;
+
+    position: static;
+    width: 145px;
+    height: 64px;
+   
+    background: #062A89;
+    padding: 4px, 8px, 4px, 8px;
+}
+
+.descripcion{
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    color: #062A89;
+
+    position: absolute;
+    width: 449px;
+    height: 78px;
+    left: 0px;
+    top: 80px;
+}
+
+.boton1{
+    width: 168px;
+    height: 49px;
+    top: 8px;
+    padding: 4px;
+    gap: 10px;
+    background: var(--primary);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: var(--white);
+
+    border: 2px solid #062A89;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton2{
+    width: 147px;
+    height: 49px;
+    top: 8px;
+    gap: 16px;
+    border-radius: 4px;
+    border: 2px;
+    border-color: #062A89;
+    box-sizing: border-box;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    color: #062A89;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 0px 0px;
+    gap: 16px;
+    flex-wrap:nowrap;
+}
+
+.iphone{
+    position: static;
+    width: 302px;
+    height: 506px;
+}
